@@ -1,0 +1,220 @@
+
+body {
+
+  background: lightblue url("/img/logo_BIO.jpg")  no-repeat fixed center;
+
+
+ 
+  border: px solid black;
+  padding: 20px;
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+
+.bar {
+       width: 50px; height: 100px;
+       background-image: gradient("/img/logo_BIO.jpg");
+
+       /* NO RECOMENDADO */
+       background-size: 25px;
+       background-size: 50%;
+       background-size: auto 50px;
+       background-size: auto 50%;
+
+       /* OKAY */
+       background-size: 25px 50px;
+       background-size: 50% 50%;
+}
+
+
+pre, p {
+    font-size: 1em;
+    color: #FE7F88;
+    background-color: transparent;
+}
+
+div {
+  /*background-image: url("img/logo_trinity.jpg' resize,100 class="center-middle);*/
+
+}
+
+
+  
+
+.card-container.card {
+    max-width: 250px;
+    padding: 40px 40px;
+}
+
+.btn {
+    font-weight: 600;
+    height: 40px;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    user-select: none;
+    cursor: default;
+}
+
+/*
+ * Card component
+ */
+.card {
+    background-color: #F7F7F7;
+    /* just in case there no content*/
+    padding: 20px 25px 30px;
+    margin: 0 auto 25px;
+    margin-top: 50px;
+    /* shadows and rounded borders */
+    -moz-border-radius: 2px;
+    -webkit-border-radius: 2px;
+    border-radius: 2px;
+    -moz-box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+    -webkit-box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+    box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+}
+
+.profile-img-card {
+    width: 96px;
+    height: 96px;
+    margin: 0 auto 10px;
+    display: block;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+}
+
+/*
+ * Form styles
+ */
+.profile-name-card {
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+    margin: 10px 0 0;
+    min-height: 1em;
+}
+
+.reauth-email {
+    display: block;
+    color: #404040;
+    line-height: 2;
+    margin-bottom: 10px;
+    font-size: 14px;
+    text-align: center;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.form-signin #username,
+.form-signin #userpass {
+    direction: ltr;
+    height: 44px;
+    font-size: 26px;
+}
+
+.form-signin input[type=email],
+.form-signin input[type=password],
+.form-signin input[type=text],
+.form-signin button {
+    width: 100%;
+    display: block;
+    margin-bottom: 10px;
+    z-index: 1;
+    position: relative;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.form-signin .form-control:focus {
+    border-color: rgb(104, 145, 162);
+    outline: 0;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075),0 0 8px rgb(104, 145, 162);
+    box-shadow: inset 0 1px 1px rgba(0,0,0,.075),0 0 8px rgb(104, 145, 162);
+}
+
+.btn.btn-info  {
+    background-color: #32AEC4 ; */
+    /*background-color: rgb(104, 145, 162);
+    /* background-color: linear-gradient(rgb(104, 145, 162), rgb(12, 97, 33));*/
+    
+    font-weight: 900;
+    font-size: 14px;
+    height: 38px;
+     margin-bottom: 0px;
+    -moz-border-radius: 16px;
+    -webkit-border-radius: 6px;
+    border-radius: 6px;
+    border: none;
+    -o-transition: all 0.218s;
+    -moz-transition: all 0.218s;
+    -webkit-transition: all 0.218s;
+    transition: all 0.218s;
+}
+
+.btn.btn-outline-success  {
+   
+   
+    background-color: linear-gradient(rgb(104, 145, 162), rgb(12, 97, 33));*/
+    padding: 5px;
+    font-weight: 600;
+    font-size: 15px;
+    height: 36px;
+    margin-bottom: 15px;
+    -moz-border-radius: 6px;
+    -webkit-border-radius: 6px;
+    border-radius: 6px;
+   
+    
+}
+.btn.btn-danger  {
+    /*background-color: #4d90fe; */
+    /*background-color: rgb(104, 145, 162);
+    /* background-color: linear-gradient(rgb(104, 145, 162), rgb(12, 97, 33));*/
+    padding: 20px;
+    font-weight: 500;
+    font-size: 12px;
+    height: 16px;
+ 
+   
+}
+
+
+
+
+.btn.btn-signin:hover,
+.btn.btn-signin:active,
+.btn.btn-signin:focus {
+    background-color: rgb(12, 97, 33);
+}
+
+.forgot-password {
+    color: rgb(104, 145, 162);
+}
+
+.forgot-password:hover,
+.forgot-password:active,
+.forgot-password:focus{
+    color: rgb(12, 97, 33);
+}
+
+.list-group-item:hover {
+    background-color: blue;
+}
+
+.titulo {
+    text-align: center;
+}
+
+/*.panel-default > .panel-heading {
+    background-color: #245580;
+}*/
+.navbar.navbar-expand-lg.navbar-light.bg-light{
+
+  
+}
+
